@@ -1,4 +1,5 @@
 @import '../../style/valiables';
+@import '../../style/mixins';
 
 .skills-info {
   background-color: $background-black;
@@ -6,4 +7,8 @@
   box-sizing: border-box;
   padding: 15px;
   justify-content: center;
+
+  @include xlarge {
+    padding: 70px;
+  }
 }
