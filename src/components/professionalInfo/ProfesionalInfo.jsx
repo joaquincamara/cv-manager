@@ -1,5 +1,5 @@
 import React from 'react';
-import { InfoSection } from './components/InfoSection';
+import { InfoSection } from '../molecules/infoSection/InfoSection';
 
 import './profesionalInfo.scss';
 
@@ -14,7 +14,7 @@ export const ProfesionalInfo = () => {
         `}
       />
       <InfoSection
-        sectionTitle={'EXPERIENCE'}
+        sectionTitle={'Experience'}
         sectionSubtitle={'Full stack developer and Product Owner'}
         sectionInfo={'Actually at Nearsoft'}
       />
