@@ -1,0 +1,16 @@
+@import './style/mixins';
+
+html {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+
+  @include xlarge {
+    flex-direction: row;
+  }
+}
