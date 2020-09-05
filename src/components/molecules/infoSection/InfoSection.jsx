@@ -1,7 +1,7 @@
 import React from 'react';
 import { VerticalDivider } from '../../atoms/verticalDivider/VerticalDivider';
 import { TechPresentation } from '../techPresentation/TechPresentation';
-
+import { CoolFeatureList } from '../coolFeatureList/CoolFeatureList';
 import { When } from '../../../utils/When';
 
 import './infoSection.scss';
@@ -11,6 +11,7 @@ export const InfoSection = ({
   sectionSubtitle,
   sectionInfo,
   technologies,
+  textList,
 }) => {
   return (
     <div className='info-section'>
@@ -28,16 +29,11 @@ export const InfoSection = ({
         </When>
 
         <When predicate={technologies}>
-          <TechPresentation
-            technologies={[
-              { name: 'JS', rate: 4 },
-              { name: 'CSS', rate: 4 },
-              { name: 'HTML', rate: 4 },
-              { name: 'SCSS', rate: 4 },
-              { name: 'C#', rate: 2 },
-              { name: 'NODE', rate: 4 },
-            ]}
-          />
+          <TechPresentation technologies={technologies} />
+        </When>
+
+        <When predicate={textList}>
+          <CoolFeatureList list={textList} />
         </When>
       </div>
     </div>

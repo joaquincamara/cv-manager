@@ -8,7 +8,38 @@ export const SkillsInfo = () => {
     <div className='skills-info'>
       <InfoSection
         sectionTitle={'Programming Technologies'}
-        technologies={'JS'}
+        technologies={[
+          { name: 'Js', rate: 4 },
+          { name: 'Css', rate: 4 },
+          { name: 'Html', rate: 4 },
+          { name: 'Scss', rate: 4 },
+          { name: 'C#', rate: 2 },
+          { name: 'Node', rate: 4 },
+          { name: 'React', rate: 4 },
+          { name: 'Graph QL', rate: 3 },
+          { name: 'Express', rate: 3 },
+          { name: 'Mongo', rate: 3 },
+          { name: 'MySql', rate: 3 },
+          { name: 'Redux', rate: 4 },
+        ]}
+      />
+
+      <InfoSection
+        sectionTitle={'Cool Features'}
+        textList={[
+          'Beer Brewer',
+          'Sufer',
+          'Kite surfer',
+          'Camping Lover',
+          'Coffe Lover',
+          'Dog Lover',
+          'Saturdays Morning Game Developer',
+          'History Lover',
+          'Lord Of The Rings Fan',
+          'The Leyend Of Zelda Fan',
+          'Pixel Games Lover',
+          'Motor Biker',
+        ]}
       />
     </div>
   );
