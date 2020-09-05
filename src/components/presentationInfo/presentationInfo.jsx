@@ -1,5 +1,5 @@
 import React from 'react';
-import { MailFilled, GithubFilled } from '@ant-design/icons';
+import { MailFilled, GithubFilled, CompassFilled } from '@ant-design/icons';
 
 import './presentationInfo.scss';
 
@@ -10,7 +10,7 @@ export const PresentationInfo = () => {
         <h1>JOAQUIN</h1>
         <h1>CAMARA</h1>
         <p className='presentation-info__name-info__cv-text'>
-          CURRICULUM VITAE
+          SOFTWARE ENGINEER
         </p>
       </div>
 
@@ -22,6 +22,10 @@ export const PresentationInfo = () => {
         <div className='presentation-info__contact-info__info-text'>
           <GithubFilled />
           <p>@joaquincamara</p>
+        </div>
+        <div className='presentation-info__contact-info__info-text'>
+          <CompassFilled />
+          <p>www.joaquin-camara.com</p>
         </div>
       </div>
     </div>

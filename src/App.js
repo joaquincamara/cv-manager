@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
-import { PresentationInfo } from './components/presentationInfo/presentationInfo';
+import { PresentationInfo } from './components/presentationInfo/PresentationInfo';
+import { ProfesionalInfo } from './components/professionalInfo/ProfesionalInfo';
 
 function App() {
   return (
     <div className='App'>
       <PresentationInfo />
+      <ProfesionalInfo />
     </div>
   );
 }
