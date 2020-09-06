@@ -32,7 +32,7 @@ export const PresentationInfo = () => {
         </div>
 
         <div className='presentation-info__contact-info__info-text'>
-          <a href='https://www.behance.net/johngatapia'>
+          <a href='https://www.behance.net/johngatapia' target='_blank'>
             Original Design by: John Gatapia
           </a>
         </div>
