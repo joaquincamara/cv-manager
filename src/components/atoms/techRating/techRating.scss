@@ -11,7 +11,88 @@
     flex-direction: row;
 
     &__empty {
+      border-radius: 100px;
+      width: 7px;
+      height: 7px;
+      border: 2px solid $background-yellow;
+      margin: 10px 1px 1px 1px;
       background-color: $background-black !important;
+      -webkit-animation: empty_changer 3s infinite alternate;
+      -moz-animation: empty_changer 3s infinite alternate;
+      -o-animation: empty_changer 3s infinite alternate;
+      animation: empty_changer 3s infinite alternate;
+
+      @-webkit-keyframes empty_changer {
+        from {
+          border: 2px solid $background-yellow;
+        }
+        to {
+          border: 2px solid $background-blue;
+        }
+      }
+      @-moz-keyframes empty_changer {
+        from {
+          border: 2px solid $background-yellow;
+        }
+        to {
+          border: 2px solid $background-blue;
+        }
+      }
+
+      @keyframes empty_changer {
+        from {
+          border: 2px solid $background-yellow;
+        }
+        to {
+          border: 2px solid $background-blue;
+        }
+      }
+    }
+
+    &__full {
+      border-radius: 100px;
+      width: 7px;
+      height: 7px;
+      border: 2px solid $background-yellow;
+      background-color: $background-yellow;
+      margin: 10px 1px 1px 1px;
+
+      -webkit-animation: full_changer 3s infinite alternate;
+      -moz-animation: full_changer 3s infinite alternate;
+      -o-animation: full_changer 3s infinite alternate;
+      animation: full_changer 3s infinite alternate;
+
+      @-webkit-keyframes full_changer {
+        from {
+          border: 2px solid $background-yellow;
+          background-color: $background-yellow;
+        }
+        to {
+          border: 2px solid $background-blue;
+          background-color: $background-blue;
+        }
+      }
+      @-moz-keyframes full_changer {
+        from {
+          border: 2px solid $background-yellow;
+          background-color: $background-yellow;
+        }
+        to {
+          border: 2px solid $background-blue;
+          background-color: $background-blue;
+        }
+      }
+
+      @keyframes full_changer {
+        from {
+          border: 2px solid $background-yellow;
+          background-color: $background-yellow;
+        }
+        to {
+          border: 2px solid $background-blue;
+          background-color: $background-blue;
+        }
+      }
     }
   }
 
@@ -24,14 +105,38 @@
     text-align: center;
     margin: auto;
     padding: 27px 0 0 1px !important;
-  }
 
-  hr {
-    border-radius: 100px;
-    width: 7px;
-    height: 7px;
-    border: 2px solid $background-yellow;
-    background-color: $background-yellow;
-    margin: 10px 1px 1px 1px;
+    -webkit-animation: background-color__change 3s infinite alternate;
+    -moz-animation: background-color__change 3s infinite alternate;
+    -o-animation: background-color__change 3s infinite alternate;
+    animation: background-color__change 3s infinite alternate;
+
+    @-webkit-keyframes background-color__change {
+      from {
+        border: 2px solid $background-yellow;
+      }
+      to {
+        border: 2px solid $background-blue;
+      }
+    }
+    @-moz-keyframes background-color__change {
+      from {
+        border: 2px solid $background-yellow;
+      }
+      to {
+        border: 2px solid $background-blue;
+      }
+    }
+
+    @keyframes background-color__change {
+      from {
+        border: 2px solid $background-yellow;
+        color: $background-yellow;
+      }
+      to {
+        border: 2px solid $background-blue;
+        color: $background-blue;
+      }
+    }
   }
 }
