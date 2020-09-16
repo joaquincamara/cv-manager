@@ -15,7 +15,7 @@ export const ProfesionalInfo = () => {
       />
       <InfoSection
         sectionTitle={'Experience'}
-        sectionSubtitle={'Full stack developer and Product Owner'}
+        sectionSubtitle={'Full stack developer and Team lead'}
         sectionInfo={'Actually at Nearsoft'}
       />
 
