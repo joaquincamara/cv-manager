@@ -34,10 +34,13 @@ export const SkillsInfo = () => {
           'Camping Lover',
           'Coffe Lover',
           'Dog Lover',
+          'Martial Arts lover',
           'Saturdays Morning Game Developer',
           'History Lover',
           'Lord Of The Rings Fan',
           'The Leyend Of Zelda Fan',
+          'Full Metal Achemist Fan',
+          'Avatar Last air bender fan',
           'Pixel Games Lover',
           'Motor Biker',
         ]}
