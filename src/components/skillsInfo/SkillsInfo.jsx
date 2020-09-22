@@ -28,6 +28,7 @@ export const SkillsInfo = () => {
         sectionTitle={'Cool Features'}
         textList={[
           'Beer Brewer',
+          'Sea lover',
           'Sufer',
           'Kite surfer',
           'Camping Lover',
