@@ -1,5 +1,5 @@
 import React from 'react';
-import personalLogo from '../../../assets/alchemist_icon.svg';
+import personalLogo from '../../../assets/personal_brand.svg';
 
 import './personalPhrase.scss';
 
