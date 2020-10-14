@@ -9,6 +9,7 @@ export const SkillsInfo = () => {
       <InfoSection
         sectionTitle={'Programming Technologies'}
         technologies={[
+          { name: 'Go', rate: 2 },
           { name: 'Js', rate: 4 },
           { name: 'Css', rate: 4 },
           { name: 'Html', rate: 4 },
