@@ -26,10 +26,10 @@ export const PresentationInfo = () => {
           <GithubFilled />
           <p>@joaquincamara</p>
         </div>
-        <div className='presentation-info__contact-info__info-text'>
+        {/*<div className='presentation-info__contact-info__info-text'>
           <CompassFilled />
           <p>www.joaquin-camara.com</p>
-        </div>
+  </div>*/}
 
         <div className='presentation-info__contact-info__info-text'>
           <a href='https://www.behance.net/johngatapia' target='_blank'>
