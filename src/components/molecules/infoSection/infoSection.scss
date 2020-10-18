@@ -19,6 +19,14 @@
     color: $background-yellow;
   }
 
+  a {
+    color: $background-yellow;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15px;
+    cursor: pointer;
+  }
+
   h3 {
     font-size: 12px;
     font-weight: 500;

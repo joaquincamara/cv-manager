@@ -12,6 +12,7 @@ export const InfoSection = ({
   sectionInfo,
   technologies,
   textList,
+  proyectUrl
 }) => {
   return (
     <div className='info-section'>
@@ -26,6 +27,10 @@ export const InfoSection = ({
         </When>
         <When predicate={sectionInfo}>
           <p>{sectionInfo}</p>
+        </When>
+
+        <When predicate={sectionInfo && proyectUrl}>
+          <a target="_blank" href={proyectUrl}>{proyectUrl}</a>
         </When>
 
         <When predicate={technologies}>
