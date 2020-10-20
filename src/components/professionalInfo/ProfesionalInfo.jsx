@@ -43,11 +43,16 @@ export const ProfesionalInfo = () => {
         }
         sectionInfo={'Finished'}
       />
-        <InfoSection
+      <InfoSection
         sectionTitle={'Personal projects'}
         sectionSubtitle={'Alchemist.go cli'}
         sectionInfo={"Alchemist.go it's a command cli powered by Go, it's commands allow you to transmute projects with React.js for the client app and Go for the backend api."}
         proyectUrl={"https://github.com/joaquincamara/alchemist"}
+      />
+      <InfoSection
+        sectionSubtitle={'Pixel-desk-os'}
+        sectionInfo={"It's just a little OS power it by React.js"}
+        proyectUrl={"https://github.com/joaquincamara/pixel-desk-os"}
       />
     </div>
   );
