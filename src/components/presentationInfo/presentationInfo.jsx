@@ -33,7 +33,7 @@ export const PresentationInfo = () => {
 
         <div className='presentation-info__contact-info__info-text'>
           <a href='' target='_blank'>
-            Downdload Curriculum in PDF
+            Downdload Joaquin Camara Curriculum
           </a>
         </div>
 
