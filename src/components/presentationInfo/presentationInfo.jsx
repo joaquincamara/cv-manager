@@ -26,11 +26,6 @@ export const PresentationInfo = () => {
           <GithubFilled />
           <p>@joaquincamara</p>
         </div>
-        {/*<div className='presentation-info__contact-info__info-text'>
-          <CompassFilled />
-          <p>www.joaquin-camara.com</p>
-  </div>*/}
-
         <div className='presentation-info__contact-info__info-text'>
           <a href='' target='_blank'>
             Downdload Joaquin Camara Curriculum
