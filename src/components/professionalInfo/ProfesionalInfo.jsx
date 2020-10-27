@@ -51,7 +51,7 @@ export const ProfesionalInfo = () => {
       />
       <InfoSection
         sectionSubtitle={'Pixel-desk-os'}
-        sectionInfo={"It's just a little OS power it by React.js"}
+        sectionInfo={"It's just a little OS powered by React.js"}
         proyectUrl={"https://github.com/joaquincamara/pixel-desk-os"}
       />
     </div>
