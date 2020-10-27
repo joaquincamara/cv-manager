@@ -1,13 +1,28 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { MailFilled, GithubFilled, CompassFilled } from '@ant-design/icons';
 import { PersonalPhrase } from '../molecules/personalPhrase/PersonalPhrase';
+import { Modal } from '../molecules/modal/Modal'
 import cvPDF from '../../assets/joaquin-cv.pdf'
 
 import './presentationInfo.scss';
 
+
 export const PresentationInfo = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
+  useEffect(() => {
+     let modal = document.getElementById("myModal");
+     if (isModalOpen)  {
+      modal.style.display = "block"
+    } else  if (!isModalOpen) {
+      modal.style.display = "none"
+    }
+  })  
+
+
   return (
     <div className='presentation-info'>
+      <Modal onHandlerModal={() => setIsModalOpen(!isModalOpen)} />
       <div className='presentation-info__name-info'>
         <h1>JOAQUIN</h1>
         <h1>CAMARA</h1>
@@ -28,7 +43,7 @@ export const PresentationInfo = () => {
           <p>@joaquincamara</p>
         </div>
         <div className='presentation-info__contact-info__info-text'>
-          <a href={cvPDF} download target='_blank'>
+          <a onClick={() => setIsModalOpen(!isModalOpen)} href={cvPDF}  download>
             Downdload Joaquin Camara Curriculum
           </a>
         </div>
