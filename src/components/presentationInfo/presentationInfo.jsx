@@ -1,6 +1,7 @@
 import React from 'react';
 import { MailFilled, GithubFilled, CompassFilled } from '@ant-design/icons';
 import { PersonalPhrase } from '../molecules/personalPhrase/PersonalPhrase';
+import cvPDF from '../../assets/joaquin-cv.pdf'
 
 import './presentationInfo.scss';
 
@@ -27,7 +28,7 @@ export const PresentationInfo = () => {
           <p>@joaquincamara</p>
         </div>
         <div className='presentation-info__contact-info__info-text'>
-          <a href='' target='_blank'>
+          <a href={cvPDF} download target='_blank'>
             Downdload Joaquin Camara Curriculum
           </a>
         </div>
