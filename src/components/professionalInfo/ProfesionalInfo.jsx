@@ -8,8 +8,8 @@ export const ProfesionalInfo = () => {
     <div className='profesional-info'>
       <InfoSection
         sectionTitle={'ME'}
-        sectionInfo={`I am a web developer  who has been working with a variety of applications. 
-        Specialized in JavaScript and with some front-end frameworks and libraries such as React.js, Redux.js, Meteor.js, Node.js, express.js, media-soup, React-Native and other technologies like CSS, HTML and  HTTPS.
+        sectionInfo={`I am a software engineer  who has been working with a variety of applications. 
+        Specialized in Golang, JavaScript and some front-end frameworks and libraries such as React.js, Redux.js, Meteor.js, Node.js, express.js, media-soup, React-Native and other technologies like CSS, HTML and  HTTPS.
         I truly believe that anyone can be a good mentor regardless of their age or knowledge.
         `}
       />
