@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cv-manager/static/css/main.6dd2e9fc.chunk.css",
+    "main.css": "/cv-manager/static/css/main.2d77c322.chunk.css",
     "main.js": "/cv-manager/static/js/main.6a758f5d.chunk.js",
     "main.js.map": "/cv-manager/static/js/main.6a758f5d.chunk.js.map",
     "runtime-main.js": "/cv-manager/static/js/runtime-main.09b81a8b.js",
@@ -8,9 +8,9 @@
     "static/js/2.ab08e89f.chunk.js": "/cv-manager/static/js/2.ab08e89f.chunk.js",
     "static/js/2.ab08e89f.chunk.js.map": "/cv-manager/static/js/2.ab08e89f.chunk.js.map",
     "index.html": "/cv-manager/index.html",
-    "precache-manifest.46bc5b8873f6113792fd25f9fc834b57.js": "/cv-manager/precache-manifest.46bc5b8873f6113792fd25f9fc834b57.js",
+    "precache-manifest.be6c002b18d8243726342af0b1b12336.js": "/cv-manager/precache-manifest.be6c002b18d8243726342af0b1b12336.js",
     "service-worker.js": "/cv-manager/service-worker.js",
-    "static/css/main.6dd2e9fc.chunk.css.map": "/cv-manager/static/css/main.6dd2e9fc.chunk.css.map",
+    "static/css/main.2d77c322.chunk.css.map": "/cv-manager/static/css/main.2d77c322.chunk.css.map",
     "static/js/2.ab08e89f.chunk.js.LICENSE.txt": "/cv-manager/static/js/2.ab08e89f.chunk.js.LICENSE.txt",
     "static/media/joaquin-cv.pdf": "/cv-manager/static/media/joaquin-cv.1b1ec05f.pdf",
     "static/media/personal_brand.svg": "/cv-manager/static/media/personal_brand.1af29df8.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.09b81a8b.js",
     "static/js/2.ab08e89f.chunk.js",
-    "static/css/main.6dd2e9fc.chunk.css",
+    "static/css/main.2d77c322.chunk.css",
     "static/js/main.6a758f5d.chunk.js"
   ]
 }
