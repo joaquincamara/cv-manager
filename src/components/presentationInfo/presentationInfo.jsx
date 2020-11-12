@@ -42,6 +42,13 @@ export const PresentationInfo = () => {
           <GithubFilled />
           <p>@joaquincamara</p>
         </div>
+
+        <div className='presentation-info__contact-info__info-text'>
+          <a  href='https://www.patreon.com/joaquincamara?fan_landing=true' target='_blank'>
+            Checkout my patreon
+          </a>
+        </div>
+
         <div className='presentation-info__contact-info__info-text'>
           <a onClick={() => setIsModalOpen(!isModalOpen)} href={cvPDF}  download>
             Downdload Joaquin Camara Curriculum
