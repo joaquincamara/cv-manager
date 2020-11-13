@@ -44,8 +44,8 @@ export const PresentationInfo = () => {
         </div>
 
         <div className='presentation-info__contact-info__info-text'>
-          <a  href='https://www.patreon.com/joaquincamara?fan_landing=true' target='_blank'>
-            Checkout my patreon
+          <a  href='https://github.com/sponsors/joaquincamara' target='_blank'>
+            Checkout my Github sponsor
           </a>
         </div>
 
